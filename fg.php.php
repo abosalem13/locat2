@@ -13,7 +13,7 @@ $subject = "Location Information";
 $message = "Latitude: $latitude, Longitude: $longitude";
 
 // Email address used for sending
-$headers = "From: your_email@example.com";
+$headers = "imobilejordan@gmail.com";
 
 // Sending the email
 mail($to, $subject, $message, $headers);
